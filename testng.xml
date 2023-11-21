@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="D:/API Automation/SpotifyAPIAutomation">
+        <classes>
+            <class name="api.tests.PlaylistTests_Pojo">
+                <methods>
+                    <include name="testCreatePlaylist"/>
+                    <include name="testGetPlaylist"/>
+                    <include name="testUpdatePlaylist"/>
+                    <include name="testCreatePlaylistWithoutName"/>
+                    <include name="testCreatePlaylistWithInvalidToken"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
